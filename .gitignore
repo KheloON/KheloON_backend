@@ -1,0 +1,21 @@
+# Ignore all `.log` files
+*.log
+
+# Ignore all `.env` files (used for environment variables)
+.env
+
+# Ignore all `node_modules` directory
+node_modules/
+
+# Ignore all compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore all files in `temp/` directory
+temp/
+
+# Ignore `secrets.txt` but keep `secrets.example.txt`
+secrets.txt
+
+# Ignore all `.zip` files
+*.zip
