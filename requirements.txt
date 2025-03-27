@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pillow
+ultralytics
+opencv-python-headless
+google-generativeai
+numpy
+requests
+python-dotenv
+pickle-mixin
+python-multipart
+torch
+typing-extensions
+gunicorn
