@@ -1,0 +1,44 @@
+athlete-management-app/
+├── config/
+│   ├── database.js            # MongoDB connection
+│   ├── redis.js               # Redis client configuration
+│   ├── s3.js                  # AWS S3 configuration
+│   └── env.js                 # Environment variables configuration
+├── controllers/
+│   ├── auth.controller.js     # Authentication endpoints logic
+│   ├── health.controller.js   # Health data endpoints logic
+│   ├── post.controller.js     # Social posts endpoints logic
+│   ├── profile.controller.js  # User profile endpoints logic
+│   └── achievement.controller.js # Achievements endpoints logic
+├── middlewares/
+│   ├── auth.middleware.js     # JWT verification middleware
+│   ├── error.middleware.js    # Error handling middleware
+│   ├── rateLimit.middleware.js # Rate limiting middleware
+│   └── validation.middleware.js # Request validation middleware
+├── models/
+│   ├── user.model.js          # User schema and model
+│   ├── post.model.js          # Post schema and model
+│   ├── healthData.model.js    # Health data schema and model
+│   └── notification.model.js  # Notification schema and model
+├── routes/
+│   ├── index.js               # Routes aggregator
+│   ├── auth.routes.js         # Authentication routes 
+│   ├── health.routes.js       # Health data routes
+│   ├── post.routes.js         # Social posts routes
+│   └── profile.routes.js      # User profile routes
+├── services/
+│   ├── auth.service.js        # Authentication business logic
+│   ├── health.service.js      # Health monitoring business logic
+│   ├── post.service.js        # Social engagement business logic
+│   ├── media.service.js       # Media handling (images/videos)
+│   ├── socket.service.js      # WebSocket management
+│   └── alert.service.js       # Notifications and alerts
+├── utils/
+│   ├── logger.js              # Logging utility
+│   ├── validator.js           # Input validation helper
+│   └── formatter.js           # Response formatting
+├── .env                       # Environment variables
+├── .gitignore                 # Git ignore file
+├── package.json               # Node.js dependencies
+├── README.md                  # Project documentation
+└── server.js                  # Main entry point
